@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:background="#000"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:padding="@dimen/abc_action_bar_content_inset_material"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:text="KeyWord"
+			android:textSize="@dimen/abc_action_bar_content_inset_material"
+			android:layout_margin="20px"
+			android:textColor="@color/cardview_light_background"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="41.5dp"  />
+
+		
+		<EditText
+			android:id="@+id/ikey"
+			android:maxLines="1"
+			android:inputType="text"
+			android:singleLine="true"
+			
+			android:backgroundTint="#94C600"
+			android:textColor="@color/cardview_light_background"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50dp"/>
+
+
+		<TextView
+			android:text="Detal"
+			android:textColor="@color/cardview_light_background"			
+			android:textSize="@dimen/abc_action_bar_content_inset_material"
+			android:layout_margin="20px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.0dp" />
+
+
+		<EditText
+			android:inputType="text"
+			android:singleLine="true"
+			android:id="@+id/idet"
+			android:backgroundTint="#94C600"
+			android:textColor="@color/cardview_light_background"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50dp"/>
+
+
+		<Button
+			android:text="ADD"
+			android:background="#4AA9F7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/addword" />
+
+
+		<Button
+			android:text="Cancel"
+			android:layout_marginTop="20dp"
+			android:background="#E83993"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/cancel" />
+
+	
+	
+	</LinearLayout>
+
+
+
+</RelativeLayout>

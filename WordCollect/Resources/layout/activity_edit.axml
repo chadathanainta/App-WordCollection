@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="#000000"
+    android:layout_height="match_parent">
+
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:padding="@dimen/abc_action_bar_content_inset_material"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:text="KeyWord"
+			android:textSize="@dimen/abc_action_bar_content_inset_material"
+			android:layout_margin="20px"
+			android:textColor="@color/cardview_light_background"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="41.5dp"  />
+
+		
+		<EditText
+			android:enabled="false"
+			android:inputType="text"
+			android:singleLine="true"
+			android:backgroundTint="#94C600"
+			android:id="@+id/ikey"
+			android:textColor="@color/cardview_light_background"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50dp"/>
+
+
+		<TextView
+			android:text="Detal"
+			android:textColor="@color/cardview_light_background"			
+			android:textSize="@dimen/abc_action_bar_content_inset_material"
+			android:layout_margin="20px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.0dp" />
+
+
+		<EditText
+			android:enabled="false"
+			android:inputType="text"
+			android:singleLine="true"
+			android:backgroundTint="#94C600"
+			
+			android:id="@+id/idet"
+			android:textColor="@color/cardview_light_background"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="30dp" />
+
+
+		<Button
+			android:layout_marginBottom="10dp" 
+			android:text="edite"
+			android:background="#4AA9F7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/editeword" />
+
+		<Button
+			android:layout_marginBottom="10dp" 
+			android:text="ok"
+			android:background="#94C600" 
+			android:visibility="gone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/okeword" />
+
+		<Button
+			android:layout_marginBottom="10dp" 
+			android:text="delete"
+			android:background="#FF7D5F"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/deleword" />
+		
+		<Button
+			
+			android:background="#E83993"
+			android:text="Cancel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/cancel" />
+
+	
+	
+	</LinearLayout>
+
+ 
+
+
+</RelativeLayout>
